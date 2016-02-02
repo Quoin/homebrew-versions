@@ -1,14 +1,15 @@
 class Gnupg21 < Formula
   desc "GNU Privacy Guard: a free PGP replacement"
   homepage "https://www.gnupg.org/"
-  url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.1.11.tar.bz2"
-  mirror "https://www.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.11.tar.bz2"
-  sha256 "b7b0fb2c8c5d47d7ec916d4a1097c0ddcb94a12bb1c0ac424ad86b1ee316b61a"
+  url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.1.10.tar.bz2"
+  mirror "https://www.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.10.tar.bz2"
+  sha256 "93bd58d81771a4fa488566e5d2e13b1fd7afc86789401eb41731882abfd26cf9"
+  revision 1
 
   bottle do
-    sha256 "725cb9cebd07ca0ab9ea56a5742c765b77f0eed17f7c4428b575c40eea35ac8b" => :el_capitan
-    sha256 "a699c10bc5324df5b88cd1612b7aa9c4b841986d7438eed542a4b59816cf41e2" => :yosemite
-    sha256 "8c43114c858a4975c0fd1b3b52703e2be6b4ac2d8a40fb89dd9366db425b39a0" => :mavericks
+    sha256 "7978141d9e760ae3622d487d7feff055e259dc46564c2b6fd9f5921f0f21df78" => :el_capitan
+    sha256 "27c7b3994d5049985049630f8892fa95bb28bca7cc06c6bed370bd6264570ccf" => :yosemite
+    sha256 "689ec998e3408ed820a9180f231886e016e249cf7bb201391038757e4e0484d7" => :mavericks
   end
 
   head do
