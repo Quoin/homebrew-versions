@@ -3,8 +3,7 @@ class Gnupg21 < Formula
   homepage "https://www.gnupg.org/"
   url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.1.11.tar.bz2"
   mirror "https://www.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.11.tar.bz2"
-  sha256 "93bd58d81771a4fa488566e5d2e13b1fd7afc86789401eb41731882abfd26cf9"
-  revision 1
+  sha256 "b7b0fb2c8c5d47d7ec916d4a1097c0ddcb94a12bb1c0ac424ad86b1ee316b61a"
 
   bottle do
     sha256 "7978141d9e760ae3622d487d7feff055e259dc46564c2b6fd9f5921f0f21df78" => :el_capitan
