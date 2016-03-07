@@ -5,11 +5,12 @@ class Gnupg21 < Formula
   mirror "https://www.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.11.tar.bz2"
   sha256 "b7b0fb2c8c5d47d7ec916d4a1097c0ddcb94a12bb1c0ac424ad86b1ee316b61a"
 
-  bottle do
-    sha256 "7978141d9e760ae3622d487d7feff055e259dc46564c2b6fd9f5921f0f21df78" => :el_capitan
-    sha256 "27c7b3994d5049985049630f8892fa95bb28bca7cc06c6bed370bd6264570ccf" => :yosemite
-    sha256 "689ec998e3408ed820a9180f231886e016e249cf7bb201391038757e4e0484d7" => :mavericks
-  end
+#  We will not use pre-built Homebrew binaries and instead force local rebuilds
+#  bottle do
+#    sha256 "7978141d9e760ae3622d487d7feff055e259dc46564c2b6fd9f5921f0f21df78" => :el_capitan
+#    sha256 "27c7b3994d5049985049630f8892fa95bb28bca7cc06c6bed370bd6264570ccf" => :yosemite
+#    sha256 "689ec998e3408ed820a9180f231886e016e249cf7bb201391038757e4e0484d7" => :mavericks
+#  end
 
   head do
     url "git://git.gnupg.org/gnupg.git"
